@@ -1,0 +1,26 @@
+{
+  "name": "servermock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env node .",
+    "mock": "cross-env MOCK=open node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChunchunIsMe/ServerMock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChunchunIsMe/ServerMock/issues"
+  },
+  "homepage": "https://github.com/ChunchunIsMe/ServerMock#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.1"
+  },
+  "dependencies": {
+    "glob": "^7.1.4"
+  }
+}
